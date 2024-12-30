@@ -5,6 +5,7 @@
   }
   .hero {
     width: 90vw;
+    margin: 0 auto;
   }
   .main-heading {
     font-size: 4rem;
@@ -13,16 +14,27 @@
     font-size: 2rem;
   }
   .grid-gallery {
+    width: 95vw;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
   }
   .grid-naturrally {
-    grid-template-columns: 35fr 65fr;
+    grid-template-columns: 55fr 65fr;
+  }
+  .span {
+    margin: 1rem;
   }
   .naturally-float {
     border: 1px solid #444;
     padding: 8px 16px;
-    transform: translate(0%, 90%);
+    font-size: 1.6rem;
+  }
+  .naturally {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .paragrapgnatour {
   }
 }
 /* Mobile device */
@@ -62,7 +74,9 @@
     display: none;
   }
   .hero {
-    width: 100vw;
+    width: 90vw;
+    margin: 0 auto;
+
     height: 100vh;
   }
   .hero-headings {
