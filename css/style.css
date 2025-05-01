@@ -287,12 +287,10 @@ span {
   width: 4rem;
   height: 4rem;
   line-height: 38px;
-
   opacity: 0.7;
+  cursor: default;
 }
-.fab:hover {
-  opacity: 1;
-}
+
 .list-footer {
   list-style: none;
   font-size: 18px;
